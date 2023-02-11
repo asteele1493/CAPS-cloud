@@ -3,10 +3,10 @@ const { sqsClient, chance, QUEUES } = require("../utils");
 
 async function sendPickup(vendorId){
   const event = {
-    vendor: vendorId,
+    vendor: chance.company(vendorId),
     store: chance.city(),
     orderId: chance.guid().substring(0, 8),
-    customer: chance.name(),
+    customer: chance.name({nationality : 'it', suffix : true }),
     address: chance.address(),
   };
   console.log("Vendor asking for pickup!", event.vendor, event);
