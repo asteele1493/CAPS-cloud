@@ -31,4 +31,4 @@ Drivers:
 
 ![Whiteboard for lab 19](./lab-19.png)
 
-![Console response]()
+![Console response](./lab-19-screenshot.png)
