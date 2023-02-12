@@ -1,0 +1,25 @@
+{
+  "name": "caps-cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "utils.js",
+  "scripts": {
+    "vendor": "node vendor/index.js",
+    "driver": "node driver/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.267.0",
+    "chance": "^1.1.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asteele1493/CAPS-cloud.git"
+  },
+  "author": "Andra Steele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asteele1493/CAPS-cloud/issues"
+  },
+  "homepage": "https://github.com/asteele1493/CAPS-cloud#readme"
+}
